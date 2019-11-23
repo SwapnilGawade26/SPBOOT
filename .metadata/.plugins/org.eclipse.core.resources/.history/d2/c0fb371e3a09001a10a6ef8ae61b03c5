@@ -1,0 +1,14 @@
+package lamda;
+
+public class AddLambda {
+
+	interface AddInterface
+	{
+		public int add(int,int);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

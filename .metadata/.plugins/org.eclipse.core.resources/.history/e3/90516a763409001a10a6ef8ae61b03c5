@@ -1,0 +1,16 @@
+package lamda;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	
+	
+	
+	public static void main(String args[])
+	{
+		List<User> userList=new ArrayList<User>();
+		userList.add(new User("swap","swapg26@gmail.com",25));
+	}
+}

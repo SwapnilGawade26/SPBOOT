@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;User.java&apos; to &apos;SpringBootExapmle/src/main/java/com.example.demo&apos;&#x0D;&#x0A;- Original project: &apos;lamda&apos;&#x0D;&#x0A;- Destination element: &apos;SpringBootExapmle/src/main/java/com.example.demo&apos;&#x0D;&#x0A;- Original element: &apos;lamda.User.java&apos;" description="Copy compilation unit" destination="=SpringBootExapmle/src\/main\/java&lt;com.example.demo" element1="/src&lt;lamda{User.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1573999845302" units="1" version="1.0"/>
+</session>

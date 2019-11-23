@@ -1,0 +1,42 @@
+package lamda;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String args[])
+	{
+		List<User> userList=new ArrayList<User>();
+		userList.add(new User("swap","swapg26@gmail.com",25));
+		userList.add(new User("ab","ab26@gmail.com",27));
+		userList.add(new User("xy","xy26@gmail.com",35));
+		
+		
+		
+		for (User user : userList) {
+			
+			System.out.println(user);
+		}
+		
+		
+		Collections.sort(userList,new Comparator<User>() {
+
+			@Override
+			public int compare(User o1, User o2) {
+				// TODO Auto-generated method stub
+				if(o1.getAge()< o2.getAge())
+				{
+					return -1;
+				}
+				return 1;
+			}
+			
+			
+		});
+		
+	}
+}
